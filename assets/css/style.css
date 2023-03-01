@@ -245,18 +245,18 @@ a {
     color: #5a6473;
 }
 
-.list-guide {
+.guide .list-guide {
     display: flex;
     justify-content: center;
-    gap: 140px;
     margin-top: 70px;
 }
 
 .guide .list-guide .list-guide-item {
     text-align: center;
+    margin: 0 70px;
 }
 
-.guide .list-guide .list-guide-item h3 {
+.guide .list-guide .list-guide-item .title {
     font-weight: 500;
     font-size: 2rem;
     line-height: 1.1;
@@ -267,14 +267,18 @@ a {
     color: #3b3c45;
 }
 
-.guide .list-guide .list-guide-item a {
+.guide .list-guide .list-guide-item .link {
     margin-top: 10px;
-    display: inline-block;
+    display: block;
     font-weight: 600;
     font-size: 1.4rem;
-
     text-align: center;
-
+    color: #0689ff;
+}
+.guide .list-guide .list-guide-item .link .how {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
     color: #0689ff;
 }
 
