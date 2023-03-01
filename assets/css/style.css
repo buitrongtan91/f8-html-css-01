@@ -5,7 +5,10 @@
 :root {
     --primary-color: #0f1b4c;
 }
-
+html,
+body {
+    scroll-behavior: smooth;
+}
 html {
     font-size: 62.5%;
 }
@@ -61,7 +64,7 @@ a {
 }
 .header {
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 
@@ -159,7 +162,7 @@ a {
 .hero .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
-    top: calc(100vh - 619px);
+    bottom: 0;
 }
 
 /* Client */
