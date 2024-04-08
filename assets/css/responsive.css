@@ -6,6 +6,9 @@
 }
 /* Tablet and Mobile */
 @media screen and (max-width: 991.98px) {
+    .header {
+        height: calc(100vh - 80px);
+    }
     .nav-bar ul {
         display: none;
     }
