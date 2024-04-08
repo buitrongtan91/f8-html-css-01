@@ -162,7 +162,7 @@ a {
 
 .hero .hero-img {
     position: absolute;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: 0;
     bottom: 0;
 }
 
@@ -348,8 +348,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -625,8 +625,8 @@ a {
     padding: 58px 0;
 }
 .footer .row {
-    display: flex;
-    gap: 185px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .footer .row .column .heading {
